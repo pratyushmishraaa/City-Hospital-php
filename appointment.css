@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #f3f3f3;
+  background-image: url(./img/appointment.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.appointment-logo img {
+  height: 30%;
+  width: 10%;
+  display: block;
+  margin: 3px auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+form {
+  width: 540px;
+  /* height: 100vh; */
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #ccc;
+  /* transition: background 0.3s, transform 0.3s; */
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+  left: 27%;
+  position: absolute;
+}
+
+form h2 {
+  text-align: center;
+  color: #000;
+  padding: 20px;
+  margin: 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  outline: none;
+}
+
+.appointment-age {
+  width: 50%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.sex-radio {
+  display: flex;
+}
+.radio-options {
+  display: flex;
+  padding: 10px 14px;
+  gap: 17px;
+}
+.appointment-btn {
+  background-color: #007bff;
+  margin: 10px 189px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+}
+.appointment-btn:hover {
+  /* background-color: #0056b3; */
+  cursor: pointer;
+  color: #fff;
+}
+
+.appointment-sex {
+  align-self: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-row input[type="date"],
+.form-row input[type="time"],
+.form-row input[type="tel"],
+.form-row input[type="text"] {
+  width: 80%;
+}
+
+.appointment-back button {
+  background: linear-gradient(to bottom, #fff, #bdb6b6);
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border: none;
+  color: #000;
+  position: absolute;
+  left: 3px;
+  top: 10px;
+  border-radius: 5px;
+}
+.appointment-back button:hover {
+  cursor: pointer;
+  color: #fff;
+}
